@@ -1,10 +1,10 @@
 {
-bones: {
-	vertebrae: {
-		rotate: [
-			{ time: 0, angle: 0 },
-			{ time: 0.5, angle: 105 },
-			{ time: 1, angle: 0 }
+"bones": {
+	"bone1": {
+		"rotate": [
+			{ "time": 0, "angle": 0 },
+			{ "time": 0.5, "angle": 105 },
+			{ "time": 1, "angle": 0 }
 		]
 	}
 }

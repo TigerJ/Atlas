@@ -1,6 +1,18 @@
 {
-bones: [
-	{ name: "root" },
-	{ name: "vertebrae", parent: "root", length: 70, rotation: 30 }
-]
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone1", "parent": "root", "length": 70, "x": 30, "y": 5, "rotation": 90 }
+],
+"slots": [
+	{ "name": "blue", "bone": "bone1" }
+],
+"skins": {
+	"snape": {},
+	"sirius": {
+		"blue": {
+			"snape": { "name": "greenred", "x": 35, "width": 70, "height": 10 },
+			"sirius": { "name": "bluered", "x": 35, "width": 70, "height": 10 }
+		}
+	}
+}
 }
